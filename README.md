@@ -19,6 +19,8 @@ MAE on the last 504 hours of train, used as validation (lower is better):
 
 Chronos-2 joint is the best on average and is used for the final submission. It is not the best on every pollutant: the LSTM wins on CO and the independent Chronos-2 on PM25.
 
+The full report and analysis is in `report/report.md` 
+
 ## Repository
 
 ```
@@ -30,7 +32,7 @@ outputs/                         submission.csv (not in the repo)
 
 ## Data
 
-The data is not in the repository. Download `train.csv`, `test.csv` and `sample_submission.csv` from the Kaggle challenge of the course and put them in `data/raw/`.
+The data is not in the repository. Download `train.csv`, `test.csv` and `sample_submission.csv` from the Kaggle challenge of the course (https://www.kaggle.com/competitions/x-hec-ts-2025-predicting-air-quality-in-paris/leaderboard) and put them in `data/raw/`.
 
 ## How to run
 

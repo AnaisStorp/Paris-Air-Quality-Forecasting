@@ -96,6 +96,8 @@ Chronos-2 gets worse as the horizon grows. Its lead over persistence goes from 1
 ## 7. Final forecast
 
 I use Chronos-2 joint, the model with the lowest average MAE on validation, with all of train as context. The submission has the same columns and the same 504 timestamps as the sample file, in the same order, with no missing value. These checks are asserts in the last cell of the notebook.
+Kaggle score: 4.91669
+
 
 ## Sources
 
